@@ -1,0 +1,38 @@
+site_name: tydjwork 
+site_url: https://tydjwork.git.io/docs
+site_description: tydjwork docs
+site_author: v
+
+repo_url: https://github.com/tydjwork/docs
+edit_uri: ""
+
+theme:
+    name: material
+    
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - Home: readme.md
+    - docker:
+        - elk-docker: docker/elk-docker.md
+        - readme: docker/readme.md
+    - elk:
+        - elastic: elk/elastic.md
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+
+copyright: Copyright &copy; 2020 <a href="https://twitter.com/_tydjwork">v</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">TYDJ Team</a>.
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+plugins:
+    - search
