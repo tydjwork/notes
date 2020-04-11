@@ -34,8 +34,7 @@ copyright: Copyright &copy; 2016 - 2020 tydj
 
 # Configuration
 theme:
-  name: null
-  custom_dir: mkdocs-material/material
+  name: material
 
   # 404 page
   static_templates:
@@ -55,7 +54,7 @@ theme:
     accent: brown
   font:
     text: Cormorant
-    code: Open Sans Condensed
+    code: Comic Neue
   icon:
     logo: logo
   favicon: assets/favicon.png
